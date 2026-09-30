@@ -42,26 +42,12 @@ public class Baseclass {
 		{
 		    case "chrome":
 			WebDriverManager.chromedriver().setup();
-			ChromeOptions option = new ChromeOptions();
-			File ext=new File("./ublock.crx");
-			if(ext.exists()) {
-				option.addExtensions(ext);
-			}
-			// 2. Chrome Save Address ani Autofill Popups BAND karnyasaathi Preferences
-	        Map<String, Object> prefs = new HashMap<>();
-	        prefs.put("autofill.profile_enabled", false); // Save Address popup band
-	        prefs.put("autofill.credit_card_enabled", false);
-	        prefs.put("credentials_enable_service", false); // Save Password popup band
-	        prefs.put("profile.password_manager_enabled", false);
-	        option.setExperimentalOption("prefs", prefs);
-
-	        // 3. Automation notification ani extra popups disable kara
-	        option.addArguments("--disable-popup-blocking");
-	        option.addArguments("--disable-notifications");
-	        option.addArguments("--disable-infobars");
-	        option.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-			option.addArguments("--blink-settings=imagesEnabled=false");
-			driver= new ChromeDriver(option);
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("user-data-dir=C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extensions\\ddkjiahejlhfcafbddmgiahcphecmpfh\\2026.926.2202_0");
+			//options.addArguments("--disable-popup-blocking");
+			//options.addArguments("--disable-notifications");
+			//options.addArguments("--disable-advertisement");
+			driver= new ChromeDriver(options);
 			break;
 
 			case "msedge":
@@ -86,7 +72,7 @@ public class Baseclass {
 	    	   
 	       }}
 
-	      @AfterClass 
+	      //@AfterClass 
 	     public void tearDown() 
 	    {
           if (driver!=null)

@@ -987,3 +987,89 @@
 [INFO ] 2026-09-30 01:20:10.017 [main] Automation_Practice -  Accont deleted successfully
 [INFO ] 2026-09-30 01:20:11.824 [main] Automation_Practice -  Click on Continur btn
 [INFO ] 2026-09-30 01:20:11.826 [main] Automation_Practice - ------testcase1 passed!!! -------------
+[INFO ] 2026-09-30 12:16:59.030 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 12:17:04.365 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 12:17:07.419 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 12:17:14.122 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 12:17:14.342 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 12:17:24.202 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 12:17:26.040 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 12:17:26.042 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 12:17:48.072 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-09-30 12:17:48.155 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-09-30 12:17:50.396 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-09-30 12:17:50.396 [main] Automation_Practice - ------testcase1 passed!!! -------------
+[INFO ] 2026-09-30 12:45:31.907 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 12:45:41.036 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 12:45:45.196 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 12:45:46.169 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 12:45:48.744 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 12:46:45.732 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 12:46:51.699 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 12:46:55.589 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 12:46:56.782 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 12:46:59.949 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 12:48:11.945 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 12:48:17.558 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 12:48:21.115 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 12:48:24.707 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 12:48:25.611 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 12:48:31.042 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 12:48:34.101 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 12:48:34.114 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 12:48:54.458 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-09-30 12:49:52.692 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 12:49:58.406 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 12:50:01.166 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:05:25.832 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:05:31.823 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:05:35.607 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:17:12.130 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:17:17.992 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:17:20.825 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:43:05.447 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:43:13.885 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:43:18.008 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:43:20.327 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 13:43:20.719 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 13:43:25.901 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 13:43:28.502 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 13:43:28.511 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 13:43:50.456 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-09-30 13:43:50.520 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-09-30 13:43:52.996 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-09-30 13:43:52.996 [main] Automation_Practice - ------testcase1 passed!!! -------------
+[INFO ] 2026-09-30 13:44:54.104 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:44:59.669 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:45:02.441 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:48:05.034 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:48:08.709 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:48:13.879 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:48:16.992 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 13:48:17.632 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 13:48:24.176 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 13:48:25.305 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 13:48:25.306 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 13:51:33.557 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 13:51:42.647 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 13:51:46.215 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 13:51:50.181 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 13:51:50.799 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 13:51:57.814 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 13:52:00.205 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 13:52:00.228 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 15:48:07.512 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 15:48:13.199 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 15:48:16.454 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 15:51:15.938 [main] Automation_Practice - Url open..!
+[INFO ] 2026-09-30 15:51:21.943 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-09-30 15:51:24.048 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-09-30 15:51:26.593 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-09-30 15:51:26.854 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-09-30 15:51:33.231 [main] Automation_Practice - Account created
+[INFO ] 2026-09-30 15:51:36.148 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-09-30 15:51:36.157 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-09-30 15:51:59.706 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-09-30 15:51:59.764 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-09-30 15:52:03.109 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-09-30 15:52:03.109 [main] Automation_Practice - ------testcase1 passed!!! -------------
