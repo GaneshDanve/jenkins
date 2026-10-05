@@ -16,7 +16,9 @@ import pageObjects.LoginPage;
 import pageObjects.SignUpPage;
 
 public class TC001_AccountRegistrationTest extends Baseclass {
-	     
+	
+	     public static String name;
+	     public static String email;
 	@Test
 	public void Verify_Account_Registration() {
 		logger.info("----------------testcase1 Started ----------");
@@ -32,7 +34,7 @@ public class TC001_AccountRegistrationTest extends Baseclass {
 		//RandomStringUtils rm=new Random();
 		String name=RandomStringUtils.randomAlphabetic(7);
 		lp.setTxtName(name);
-		String email=lp.setTxtEmail(name+"@gmail.com");
+		lp.setTxtEmail(name+"@gmail.com");
         lp.setBtnsignup();	
         logger.info("Clicked on sign up button");
         

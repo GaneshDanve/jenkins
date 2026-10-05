@@ -40,8 +40,11 @@ public class HomePage extends Baseclass {
 	@FindBy(xpath="//a[@class='btn btn-primary']")
 	WebElement DeleteContinueBtn;
 	
-	@FindBy(xpath="//b[text()='patilgolu']")
-	WebElement LoginAsName;
+	@FindBy(xpath="//img[@src='/static/images/home/logo.png']")
+	WebElement HomePageLogo;
+	
+	@FindBy(xpath="//a[@href='/logout']")
+	WebElement logoutbtn;
 	
 	
 	 
@@ -69,8 +72,11 @@ public class HomePage extends Baseclass {
 	public void clickContinuedelete() {
 		DeleteContinueBtn.click();
 	}
-	public boolean loginAsname() {
-		return LoginAsName.isDisplayed();
+	public boolean logo() {
+		return HomePageLogo.isDisplayed();
 	}
+	public void clicklogoutbtn() {
+		logoutbtn.click();
+		} 
 	
     }
