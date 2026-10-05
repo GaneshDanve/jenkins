@@ -6,7 +6,7 @@ import java.util.Properties;
     public class ReadConfig {
 	
 	Properties prop;
-	String filepath=System.getProperty("user.dir")+"\\Configuration\\config.properties";
+	String filepath =System.getProperty("user.dir")+"\\Configuration\\config.properties";
     
 	//Constructor
 	public ReadConfig() {

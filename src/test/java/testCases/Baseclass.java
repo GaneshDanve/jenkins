@@ -38,15 +38,17 @@ public class Baseclass {
 	
 		//for logging
 		logger=LogManager.getLogger("Automation_Practice");
+		 
 		switch(browser.toLowerCase())
 		{
 		    case "chrome":
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("user-data-dir=C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extensions\\ddkjiahejlhfcafbddmgiahcphecmpfh\\2026.926.2202_0");
-			//options.addArguments("--disable-popup-blocking");
-			//options.addArguments("--disable-notifications");
-			//options.addArguments("--disable-advertisement");
+			options.addArguments("--headless=new");
+			String file = "--load-extension=C:\\Users\\admin\\CRX_Extension\\AdBlock_new";
+			options.addArguments(file);
+			options.addArguments("--disable-popup-blocking");
+			options.addArguments("--disable-notifications");
 			driver= new ChromeDriver(options);
 			break;
 
@@ -60,17 +62,9 @@ public class Baseclass {
            }
             driver.manage().window().maximize();
             logger.info("Url open..!");
-	        driver.get(baseurl);
-	        
-	        try {
-	        	
-	         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        if (driver.getCurrentUrl().contains("#google_vignette")) {
-	            driver.navigate().refresh();
-	        }}
-	        catch(Exception e) {
-	    	   
-	       }}
+	        driver.get(baseurl); 	
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	         }
 
 	      //@AfterClass 
 	     public void tearDown() 

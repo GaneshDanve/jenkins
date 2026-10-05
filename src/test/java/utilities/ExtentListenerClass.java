@@ -20,13 +20,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import testCases.Baseclass;
 
-public class ExtentListenerClass extends Baseclass implements ITestListener  {
+   public class ExtentListenerClass extends Baseclass implements ITestListener  {
 
-    ExtentSparkReporter htmlReporter;
-    ExtentReports reports;
-    ExtentTest test;
+        ExtentSparkReporter htmlReporter;
+        ExtentReports reports;
+        ExtentTest test;
 
-    public void configureReport() {
+        public void configureReport() {
         String timestamp=new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
         String ReportName="AutomationpractiesReport-" + timestamp +".html";
         htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ "//reports//" + ReportName );

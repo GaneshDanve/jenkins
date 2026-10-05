@@ -9,12 +9,12 @@ import testCases.Baseclass;
 
 public class HomePage extends Baseclass {
 	
-	WebDriver ldriver;
+	WebDriver driver;
 	
 	//constructor
 	public HomePage(WebDriver driver)
 	{
-		this.ldriver=driver;
+		this.driver=driver;
 		
 		PageFactory.initElements(driver, this);
  	}
