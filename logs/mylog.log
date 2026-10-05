@@ -1,0 +1,24 @@
+[INFO ] 2026-10-05 22:58:14.788 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-05 22:58:18.608 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-10-05 22:58:20.308 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-10-05 22:58:21.198 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-10-05 22:58:23.257 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-10-05 22:58:29.554 [main] Automation_Practice - Account created
+[INFO ] 2026-10-05 22:58:34.209 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-10-05 22:58:34.210 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-10-05 22:58:56.828 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-10-05 22:58:56.873 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-10-05 22:59:03.291 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-10-05 22:59:03.291 [main] Automation_Practice - ------testcase1 passed!!! -------------
+[INFO ] 2026-10-05 23:10:07.247 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-05 23:10:11.611 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-10-05 23:10:13.468 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-10-05 23:10:16.222 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-10-05 23:10:16.510 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-10-05 23:10:21.809 [main] Automation_Practice - Account created
+[INFO ] 2026-10-05 23:10:24.052 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-10-05 23:10:24.056 [main] Automation_Practice - verifing logged succesfully
+[INFO ] 2026-10-05 23:10:46.800 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-10-05 23:10:46.881 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-10-05 23:10:52.392 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-10-05 23:10:52.394 [main] Automation_Practice - ------testcase1 passed!!! -------------
