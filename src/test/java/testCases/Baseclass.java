@@ -44,7 +44,7 @@ public class Baseclass {
 		    case "chrome":
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless=new");
+		//	options.addArguments("--headless=new");
 			String file = "--load-extension=C:\\Users\\admin\\CRX_Extension\\AdBlock_new";
 			options.addArguments(file);
 			options.addArguments("--disable-popup-blocking");
@@ -63,7 +63,7 @@ public class Baseclass {
             driver.manage().window().maximize();
             logger.info("Url open..!");
 	        driver.get(baseurl); 	
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	         }
 
 	      //@AfterClass 

@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountCreatedPage;
+import pageObjects.Delete_AccountPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.SignUpPage;
@@ -62,11 +63,6 @@ public class TC002_Login_with_valid_crendentials extends Baseclass {
 		hp.clicklogoutbtn();
 		
 		logger.info("Clicked on logout button");
-        
-		
-		
-		
-		
         hp.logo();
         logger.info("Home Page Display with Logo");
 		hp.clicksignup();
@@ -77,6 +73,15 @@ public class TC002_Login_with_valid_crendentials extends Baseclass {
         lp.entremailadress_signIn(email);
         lp.entrepassword_signIn("98989898");
         lp.clickloginBtn();
+        logger.info("click on login btn");
+        hp.loginAsname();
+        logger.info("loginAs visible");
+        hp.clickDelete();
+        logger.info("click on account delete btn");
+        Delete_AccountPage delete=new Delete_AccountPage(driver);
+        //delete.deletemessage();
+        Assert.assertEquals(true, delete.deletemessage());
+        logger.info("Assertion for delete message");
 	}
               
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import testCases.Baseclass;
 
-public class HomePage extends Baseclass {
+public class HomePage  {
 	
 	WebDriver driver;
 	
@@ -45,9 +45,9 @@ public class HomePage extends Baseclass {
 	
 	@FindBy(xpath="//a[@href='/logout']")
 	WebElement logoutbtn;
-	
-	
-	 
+  
+	@FindBy(xpath="//a[contains(text(), ' Logged in as ')]")
+	 WebElement loginAs;
 	
 	//Performing Action on WebElement
 	public boolean homepagedisplay() {
@@ -78,5 +78,10 @@ public class HomePage extends Baseclass {
 	public void clicklogoutbtn() {
 		logoutbtn.click();
 		} 
+	
+	public boolean loginAsname() {
+		  return loginAs.isDisplayed();
+		 
+		}
 	
     }
