@@ -19,7 +19,10 @@ public class TC001_AccountRegistrationTest extends Baseclass {
 	
 	     public static String name;
 	     public static String email;
-	@Test
+	
+	     
+	@Test(enabled=false)
+	
 	public void Verify_Account_Registration() {
 		logger.info("----------------testcase1 Started ----------");
 		

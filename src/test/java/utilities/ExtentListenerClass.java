@@ -38,7 +38,7 @@ import testCases.Baseclass;
         reports.setSystemInfo("Machine", "testpc1");
         reports.setSystemInfo("OS", "Windows 11");
         reports.setSystemInfo("Browser", "Chrome");
-        reports.setSystemInfo("User Name", "Prachi");
+        reports.setSystemInfo("User Name", "ganesh");
 
         // Report Configuration
         htmlReporter.config().setDocumentTitle("Automation parctice Report Demo");

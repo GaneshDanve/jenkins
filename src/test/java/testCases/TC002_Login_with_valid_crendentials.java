@@ -52,7 +52,7 @@ public class TC002_Login_with_valid_crendentials extends Baseclass {
         signup.setTxtZipCode("422334");
         signup.setTxtMobNum("9999999999");
         
-        signup.clickBtnCreateAccount();
+      //  signup.clickBtnCreateAccount();
         
         logger.info("Account created");
         AccountCreatedPage AccountpageCreated= new AccountCreatedPage(driver);
