@@ -5,10 +5,13 @@
 <listener class-name="utilities.ExtentListenerClass">
 </listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Test">
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/>
       <class name="testCases.TC002_Login_with_valid_crendentials"/>
+      <class name="testCases.TC003_Login_with_invalid_crendentials"/>
+      <class name="testCases.TC004_LogOutUser"/>
+      <class name="testCases.TC006_ContactUsForm"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

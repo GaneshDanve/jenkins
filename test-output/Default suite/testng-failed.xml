@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC002_Login_with_valid_crendentials">
+      <class name="testCases.TC006_ContactUsForm">
         <methods>
           <include name="setup"/>
-          <include name="loginPagewithcorrectcredentials"/>
+          <include name="validateContactUsForm"/>
         </methods>
-      </class> <!-- testCases.TC002_Login_with_valid_crendentials -->
+      </class> <!-- testCases.TC006_ContactUsForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

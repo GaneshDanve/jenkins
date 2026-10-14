@@ -27,7 +27,8 @@ public class Baseclass {
 	ReadConfig readconfig = new ReadConfig();
     String baseurl = readconfig.getBaseurl();
 	String browser = readconfig.getBrowser();
-
+	String email = readconfig.getemail();
+	String password = readconfig.getpassword();
 	public static WebDriver driver;
 	public static Logger logger;
    
@@ -62,9 +63,11 @@ public class Baseclass {
            }
             driver.manage().window().maximize();
             logger.info("Url open..!");
-	        driver.get(baseurl); 	
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-	         }
+	        driver.get(baseurl);
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        String currentUrL=driver.getCurrentUrl();
+	        System.out.println(currentUrL);
+	        }
 
 	      //@AfterClass 
 	     public void tearDown() 

@@ -5,15 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import testCases.Baseclass;
-
-public class LoginPage extends Baseclass {
+public class LoginPage  {
 	
-	WebDriver ldriver;
-	public LoginPage(WebDriver rdriver)
+	WebDriver driver;
+	public LoginPage(WebDriver driver)
 	{
-		this.ldriver=rdriver;
-		
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -38,7 +35,10 @@ public class LoginPage extends Baseclass {
 	
 	@FindBy(xpath="//button[@data-qa='login-button']")
 	WebElement btnlogin;
+	//p[text()='Your email or password is incorrect!']
 	
+	@FindBy(xpath="//p[text()='Your email or password is incorrect!']")
+	WebElement Invalidpasswordmessage;
 	
 	public void setTxtName(String Name) {
 		txtName.sendKeys(Name);
@@ -64,6 +64,10 @@ public class LoginPage extends Baseclass {
 		textCorretPassword.sendKeys(correctpossword);
 	}
 	public void clickloginBtn() {
-		btnlogin.click();
+		btnlogin.click();}
+		
+    public boolean invalidpasswordemessage() {
+		return Invalidpasswordmessage.isDisplayed();
+		}
 	}
-	}
+	

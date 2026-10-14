@@ -42,6 +42,22 @@ import java.util.Properties;
 				else 
 					throw new RuntimeException("browser value not present in properties file ");
 				}
+		public String getemail() {
+            String browservalue=prop.getProperty("email");
+			
+			if (browservalue!=null) 
+				return browservalue;
+				else 
+					throw new RuntimeException("email value not present in properties file ");
+				}
+		public String getpassword() {
+            String browservalue=prop.getProperty("password");
+			
+			if (browservalue!=null) 
+				return browservalue;
+				else 
+					throw new RuntimeException("password value not present in properties file ");
+				}
 	           }
 	
 
