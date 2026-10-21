@@ -31,15 +31,11 @@ public class Baseclass {
 	String password = readconfig.getpassword();
 	public static WebDriver driver;
 	public static Logger logger;
-   
-	
-	@BeforeClass
+    @BeforeClass
 	public void setup()
 	    {
-	
-		//for logging
+	    //for logging
 		logger=LogManager.getLogger("Automation_Practice");
-		 
 		switch(browser.toLowerCase())
 		{
 		    case "chrome":

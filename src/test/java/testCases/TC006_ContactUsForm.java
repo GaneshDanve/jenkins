@@ -1,16 +1,18 @@
 package testCases;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import java.util.List;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.ContactUsPage;
 import pageObjects.HomePage;
 
-public class TC006_ContactUsForm extends Baseclass {
+    public class TC006_ContactUsForm extends Baseclass {
 	
 	@Test
 	public void validateContactUsForm() {
@@ -35,7 +37,17 @@ public class TC006_ContactUsForm extends Baseclass {
 		String expURL="https://automationexercise.com/";
 		Assert.assertEquals(home_url, expURL);
 		logger.info("Test no 6 passed");
-		
+//		driver.get("https://www.sumasoft.com/");
+//		String xpath="//a[contains(@href,'facebook') or contains(@href,'twitter') or contains(@href,'in.linkedin') or contains(@href,'youtube.com') or contains(@href,'instagram')]";
+//		
+//		JavascriptExecutor js= (JavascriptExecutor)driver;
+//		js.executeScript("window.scrollBy(0,7000);");
+//		List<WebElement> link=driver.findElements(By.xpath(xpath));
+//		
+//		for(int i=0;i<link.size();i++) {
+//			WebElement listt=link.get(i);
+//			System.out.println(listt.getAttribute("href"));
+			
+//		};
 	}
-
 }
