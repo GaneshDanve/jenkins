@@ -13,31 +13,7 @@ pipeline {
             steps {
                 bat 'mvn clean test'
             }
-        }pipeline {
-    agent any
-
-    stages {
-
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
         }
-
-        stage('Build and Test') {
-            steps {
-                bat 'mvn clean test'
-            }
-        }
-    }
-
-    post {
-        always {
-            junit testResults: 'target/surefire-reports/*.xml',
-                  allowEmptyResults: true
-        }
-    }
-}
     }
 
     post {
