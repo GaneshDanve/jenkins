@@ -1,57 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-21T14:45:44 IST" name="Suite" finished-at="2026-10-21T14:47:38 IST" duration-ms="113402">
+  <suite started-at="2026-11-01T18:32:55 IST" name="Suite" finished-at="2026-11-01T18:36:21 IST" duration-ms="206502">
     <groups>
     </groups>
-    <test started-at="2026-10-21T14:45:44 IST" name="Test" finished-at="2026-10-21T14:47:38 IST" duration-ms="113402">
+    <test started-at="2026-11-01T18:32:55 IST" name="Test" finished-at="2026-11-01T18:36:21 IST" duration-ms="206502">
       <class name="testCases.TC003_Login_with_invalid_crendentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@fa4c865]" started-at="2026-10-21T14:46:42 IST" name="setup" finished-at="2026-10-21T14:46:48 IST" duration-ms="6375" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@3bd82cf5]" started-at="2026-11-01T18:34:26 IST" name="setup" finished-at="2026-11-01T18:34:34 IST" duration-ms="8049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@fa4c865]" started-at="2026-10-21T14:46:48 IST" name="loginPagewithcorrectcredentials" finished-at="2026-10-21T14:47:11 IST" duration-ms="23393" status="PASS">
+        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@3bd82cf5]" started-at="2026-11-01T18:34:34 IST" name="loginPagewithcorrectcredentials" finished-at="2026-11-01T18:35:07 IST" duration-ms="32778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPagewithcorrectcredentials -->
       </class> <!-- testCases.TC003_Login_with_invalid_crendentials -->
       <class name="testCases.TC002_Login_with_valid_crendentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@4c178a76]" started-at="2026-10-21T14:46:11 IST" name="setup" finished-at="2026-10-21T14:46:17 IST" duration-ms="5416" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@fa4c865]" started-at="2026-11-01T18:33:49 IST" name="setup" finished-at="2026-11-01T18:33:55 IST" duration-ms="6118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@4c178a76]" started-at="2026-10-21T14:46:17 IST" name="loginPagewithcorrectcredentials" finished-at="2026-10-21T14:46:42 IST" duration-ms="24886" status="PASS">
+        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@fa4c865]" started-at="2026-11-01T18:33:55 IST" name="loginPagewithcorrectcredentials" finished-at="2026-11-01T18:34:26 IST" duration-ms="31755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPagewithcorrectcredentials -->
       </class> <!-- testCases.TC002_Login_with_valid_crendentials -->
       <class name="testCases.TC004_LogOutUser">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_LogOutUser@3bd82cf5]" started-at="2026-10-21T14:47:11 IST" name="setup" finished-at="2026-10-21T14:47:18 IST" duration-ms="6381" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_LogOutUser@544fa968]" started-at="2026-11-01T18:35:07 IST" name="setup" finished-at="2026-11-01T18:35:20 IST" duration-ms="12659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogout()[pri:0, instance:testCases.TC004_LogOutUser@3bd82cf5]" started-at="2026-10-21T14:47:18 IST" name="verifyLogout" finished-at="2026-10-21T14:47:25 IST" duration-ms="7313" status="PASS">
+        <test-method signature="verifyLogout()[pri:0, instance:testCases.TC004_LogOutUser@544fa968]" started-at="2026-11-01T18:35:20 IST" name="verifyLogout" finished-at="2026-11-01T18:35:34 IST" duration-ms="13909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogout -->
       </class> <!-- testCases.TC004_LogOutUser -->
       <class name="testCases.TC006_ContactUsForm">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC006_ContactUsForm@544fa968]" started-at="2026-10-21T14:47:25 IST" name="setup" finished-at="2026-10-21T14:47:30 IST" duration-ms="4961" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC006_ContactUsForm@247bddad]" started-at="2026-11-01T18:35:34 IST" name="setup" finished-at="2026-11-01T18:35:52 IST" duration-ms="17689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateContactUsForm()[pri:0, instance:testCases.TC006_ContactUsForm@544fa968]" started-at="2026-10-21T14:47:30 IST" name="validateContactUsForm" finished-at="2026-10-21T14:47:38 IST" duration-ms="7451" status="PASS">
+        <test-method signature="validateContactUsForm()[pri:0, instance:testCases.TC006_ContactUsForm@247bddad]" started-at="2026-11-01T18:35:52 IST" name="validateContactUsForm" finished-at="2026-11-01T18:36:20 IST" duration-ms="28723" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='zs_fl_close']"}
+  (Session info: chrome=156.0.8078.74)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [805064714dcfe32195b399889ffeb537, findElement {using=xpath, value=//span[@id='zs_fl_close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.74, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56306}, goog:processID: 6412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56306/devtoo..., se:cdpVersion: 156.0.8078.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 805064714dcfe32195b399889ffeb537]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='zs_fl_close']"}
+  (Session info: chrome=156.0.8078.74)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [805064714dcfe32195b399889ffeb537, findElement {using=xpath, value=//span[@id='zs_fl_close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.74, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56306}, goog:processID: 6412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56306/devtoo..., se:cdpVersion: 156.0.8078.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 805064714dcfe32195b399889ffeb537
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at testCases.TC006_ContactUsForm.validateContactUsForm(TC006_ContactUsForm.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactUsForm -->
       </class> <!-- testCases.TC006_ContactUsForm -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@6ad82709]" started-at="2026-10-21T14:45:45 IST" name="setup" finished-at="2026-10-21T14:45:57 IST" duration-ms="12201" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@510f3d34]" started-at="2026-11-01T18:32:56 IST" name="setup" finished-at="2026-11-01T18:33:23 IST" duration-ms="27836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@6ad82709]" started-at="2026-10-21T14:45:57 IST" name="Verify_Account_Registration" finished-at="2026-10-21T14:46:11 IST" duration-ms="14379" status="PASS">
+        <test-method signature="Verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@510f3d34]" started-at="2026-11-01T18:33:23 IST" name="Verify_Account_Registration" finished-at="2026-11-01T18:33:48 IST" duration-ms="25102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Account_Registration -->

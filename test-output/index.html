@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_ContactUsForm" class="method navigator-link" hash-for-method="validateContactUsForm">validateContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,17 +122,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_Login_with_valid_crendentials" class="method navigator-link" hash-for-method="loginPagewithcorrectcredentials">loginPagewithcorrectcredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC003_Login_with_invalid_crendentials" class="method navigator-link" hash-for-method="loginPagewithcorrectcredentials">loginPagewithcorrectcredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_ContactUsForm" class="method navigator-link" hash-for-method="validateContactUsForm">validateContactUsForm</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_Login_with_valid_crendentials" class="method navigator-link" hash-for-method="loginPagewithcorrectcredentials">loginPagewithcorrectcredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,9 +147,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testCases.TC006_ContactUsForm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -149,10 +158,34 @@
                   <a name="validateContactUsForm">
                   </a> <!-- validateContactUsForm -->
                   <span class="method-name">validateContactUsForm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;zs_fl_close&apos;]&quot;}
+  (Session info: chrome=156.0.8078.74)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [805064714dcfe32195b399889ffeb537, findElement {using=xpath, value=//span[@id=&apos;zs_fl_close&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.74, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56306}, goog:processID: 6412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56306/devtoo..., se:cdpVersion: 156.0.8078.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 805064714dcfe32195b399889ffeb537
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at testCases.TC006_ContactUsForm.validateContactUsForm(TC006_ContactUsForm.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -275,29 +308,29 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginPagewithcorrectcredentials')
-data.setCell(0, 2, 'testCases.TC002_Login_with_valid_crendentials')
-data.setCell(0, 3, 24886);
+data.setCell(0, 2, 'testCases.TC003_Login_with_invalid_crendentials')
+data.setCell(0, 3, 32778);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginPagewithcorrectcredentials')
-data.setCell(1, 2, 'testCases.TC003_Login_with_invalid_crendentials')
-data.setCell(1, 3, 23393);
+data.setCell(1, 2, 'testCases.TC002_Login_with_valid_crendentials')
+data.setCell(1, 3, 31755);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Verify_Account_Registration')
-data.setCell(2, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(2, 3, 14379);
+data.setCell(2, 1, 'validateContactUsForm')
+data.setCell(2, 2, 'testCases.TC006_ContactUsForm')
+data.setCell(2, 3, 28723);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateContactUsForm')
-data.setCell(3, 2, 'testCases.TC006_ContactUsForm')
-data.setCell(3, 3, 7451);
+data.setCell(3, 1, 'Verify_Account_Registration')
+data.setCell(3, 2, 'testCases.TC001_AccountRegistrationTest')
+data.setCell(3, 3, 25102);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyLogout')
 data.setCell(4, 2, 'testCases.TC004_LogOutUser')
-data.setCell(4, 3, 7313);
+data.setCell(4, 3, 13909);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -330,51 +363,53 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_Account_Registration</span>
-                <span class="method-start">12238 ms</span>
+                <span class="method-start">27856 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_Login_with_valid_crendentials</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">26656 ms</span>
+                <span class="method-start">53007 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginPagewithcorrectcredentials</span>
-                <span class="method-start">32074 ms</span>
+                <span class="method-start">59126 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC003_Login_with_invalid_crendentials</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">56964 ms</span>
+                <span class="method-start">90887 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginPagewithcorrectcredentials</span>
-                <span class="method-start">63341 ms</span>
+                <span class="method-start">98937 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC004_LogOutUser</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">86761 ms</span>
+                <span class="method-start">131724 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyLogout</span>
-                <span class="method-start">93143 ms</span>
+                <span class="method-start">144386 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC006_ContactUsForm</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">100461 ms</span>
+                <span class="method-start">158306 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateContactUsForm</span>
-                <span class="method-start">105426 ms</span>
+                <span class="method-start">175996 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

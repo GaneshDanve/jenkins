@@ -8,8 +8,12 @@ pipeline {
                 checkout scm
             }
         }
-
-        stage('Build and Test') {
+        
+        stage('Build and Test'){
+			tools{
+				maven 'M3'
+			}
+		
             steps {
                 bat 'mvn clean test'
             }

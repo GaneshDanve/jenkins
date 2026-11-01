@@ -1286,3 +1286,92 @@
 [INFO ] 2026-10-21 14:47:25.630 [main] Automation_Practice - click on logout button
 [INFO ] 2026-10-21 14:47:27.352 [main] Automation_Practice - Url open..!
 [INFO ] 2026-10-21 14:47:38.069 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:36:09.946 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:36:13.808 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:39:06.565 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:39:11.139 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:41:32.982 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:41:37.083 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:48:28.780 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:48:32.829 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:54:34.504 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:54:37.973 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 09:55:56.560 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 09:56:00.197 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:01:43.665 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:01:48.043 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:08:45.618 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:08:49.776 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:14:18.491 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:14:22.603 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:15:53.759 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:15:58.878 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:17:40.529 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:17:44.252 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:19:37.356 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:19:42.515 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:20:50.604 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:20:54.447 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:22:50.480 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:22:54.113 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:25:44.730 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:25:48.674 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:27:01.265 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:27:05.119 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:29:05.322 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:29:08.862 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:30:59.544 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:31:03.309 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:32:22.984 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:32:27.111 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:36:22.627 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:36:26.253 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 10:55:21.395 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 10:55:26.699 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-10-26 17:38:32.678 [main] Automation_Practice - Url open..!
+[INFO ] 2026-10-26 17:38:37.593 [main] Automation_Practice - Test no 6 passed
+[INFO ] 2026-11-01 18:33:15.972 [main] Automation_Practice - Url open..!
+[INFO ] 2026-11-01 18:33:23.887 [main] Automation_Practice - ----------------testcase1 Started ----------
+[INFO ] 2026-11-01 18:33:25.451 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-11-01 18:33:27.087 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-11-01 18:33:27.481 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-11-01 18:33:32.138 [main] Automation_Practice - Account created
+[INFO ] 2026-11-01 18:33:41.462 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-11-01 18:33:43.099 [main] Automation_Practice - click on delete account link
+[INFO ] 2026-11-01 18:33:43.129 [main] Automation_Practice -  Accont deleted successfully
+[INFO ] 2026-11-01 18:33:48.981 [main] Automation_Practice -  Click on Continur btn
+[INFO ] 2026-11-01 18:33:48.981 [main] Automation_Practice - ------testcase1 passed!!! -------------
+[INFO ] 2026-11-01 18:33:50.615 [main] Automation_Practice - Url open..!
+[INFO ] 2026-11-01 18:33:56.852 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-11-01 18:33:58.616 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-11-01 18:33:59.179 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-11-01 18:34:09.149 [main] Automation_Practice - Account created
+[INFO ] 2026-11-01 18:34:12.682 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-11-01 18:34:15.955 [main] Automation_Practice - Clicked on logout button
+[INFO ] 2026-11-01 18:34:15.986 [main] Automation_Practice - Home Page Display with Logo
+[INFO ] 2026-11-01 18:34:18.459 [main] Automation_Practice - click on signup/login
+[INFO ] 2026-11-01 18:34:18.584 [main] Automation_Practice - sign in page display
+[INFO ] 2026-11-01 18:34:24.847 [main] Automation_Practice - click on login btn
+[INFO ] 2026-11-01 18:34:24.891 [main] Automation_Practice - loginAs visible
+[INFO ] 2026-11-01 18:34:26.858 [main] Automation_Practice - click on account delete btn
+[INFO ] 2026-11-01 18:34:26.904 [main] Automation_Practice - Assertion for delete message
+[INFO ] 2026-11-01 18:34:28.984 [main] Automation_Practice - Url open..!
+[INFO ] 2026-11-01 18:34:37.720 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-11-01 18:34:41.001 [main] Automation_Practice - Clicked on sign up button
+[INFO ] 2026-11-01 18:34:41.460 [main] Automation_Practice - Clicked on Title
+[INFO ] 2026-11-01 18:34:50.023 [main] Automation_Practice - Account created
+[INFO ] 2026-11-01 18:34:58.653 [main] Automation_Practice - Clicked on continue button
+[INFO ] 2026-11-01 18:35:01.884 [main] Automation_Practice - Clicked on logout button
+[INFO ] 2026-11-01 18:35:01.924 [main] Automation_Practice - Home Page Display with Logo
+[INFO ] 2026-11-01 18:35:04.883 [main] Automation_Practice - click on signup/login
+[INFO ] 2026-11-01 18:35:05.584 [main] Automation_Practice - sign in page display
+[INFO ] 2026-11-01 18:35:05.976 [main] Automation_Practice - click on login btn
+[INFO ] 2026-11-01 18:35:10.296 [main] Automation_Practice - Url open..!
+[INFO ] 2026-11-01 18:35:20.505 [main] Automation_Practice - Home Page Displayed
+[INFO ] 2026-11-01 18:35:23.824 [main] Automation_Practice - Clicked on sign up link
+[INFO ] 2026-11-01 18:35:23.883 [main] Automation_Practice - Login into your account is visisble
+[INFO ] 2026-11-01 18:35:31.116 [main] Automation_Practice - click on login btn
+[INFO ] 2026-11-01 18:35:31.164 [main] Automation_Practice - login As user visible
+[INFO ] 2026-11-01 18:35:34.290 [main] Automation_Practice - click on logout button
+[INFO ] 2026-11-01 18:35:36.967 [main] Automation_Practice - Url open..!
+[INFO ] 2026-11-01 18:35:52.029 [main] Automation_Practice - Test no 6 passed

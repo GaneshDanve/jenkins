@@ -15,8 +15,8 @@ import pageObjects.HomePage;
     public class TC006_ContactUsForm extends Baseclass {
 	
 	@Test
-	public void validateContactUsForm() {
-		HomePage hp=new HomePage(driver);
+	public void validateContactUsForm() throws InterruptedException {
+		/*HomePage hp=new HomePage(driver);
 		hp.homepagedisplay();
 		ContactUsPage cp=new ContactUsPage(driver);
 		cp.clickonContactUs();
@@ -36,18 +36,25 @@ import pageObjects.HomePage;
 		String home_url=driver.getCurrentUrl();
 		String expURL="https://automationexercise.com/";
 		Assert.assertEquals(home_url, expURL);
-		logger.info("Test no 6 passed");
-//		driver.get("https://www.sumasoft.com/");
-//		String xpath="//a[contains(@href,'facebook') or contains(@href,'twitter') or contains(@href,'in.linkedin') or contains(@href,'youtube.com') or contains(@href,'instagram')]";
-//		
-//		JavascriptExecutor js= (JavascriptExecutor)driver;
-//		js.executeScript("window.scrollBy(0,7000);");
-//		List<WebElement> link=driver.findElements(By.xpath(xpath));
-//		
-//		for(int i=0;i<link.size();i++) {
-//			WebElement listt=link.get(i);
-//			System.out.println(listt.getAttribute("href"));
+		*/logger.info("Test no 6 passed");
+		
+		
+		
+		driver.get("https://www.sumasoft.com/");
+		String xpath="//a[contains(@href,'facebook') or contains(@href,'twitter') or contains(@href,'in.linkedin') or contains(@href,'youtube.com') or contains(@href,'instagram')]";
+		
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+		driver.findElement(By.xpath("//span[@id='zs_fl_close']")).click();
+		List<WebElement> link=driver.findElements(By.xpath(xpath));
+		
+		for(int i=0;i<link.size();i++) {
+			link.get(i).click();
+			//driver.navigate().to("https://www.sumasoft.com/");
+			//Thread.sleep(2000);
+			//System.out.println(listt.getAttribute("href"));
+		
 			
-//		};
+		}
 	}
 }
