@@ -60,7 +60,8 @@ public class Baseclass {
             driver.manage().window().maximize();
             logger.info("Url open..!");
 	        driver.get(baseurl);
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        driver.manage().window().maximize();
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	        String currentUrL=driver.getCurrentUrl();
 	        System.out.println(currentUrL);
 	        }
