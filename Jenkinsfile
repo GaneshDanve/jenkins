@@ -22,8 +22,18 @@ pipeline {
 
     post {
         always {
-            junit testResults: 'target/surefire-reports/*.xml',
-                  allowEmptyResults: true
+            // 1. TestResults sathi
+            junit testResults: 'target/surefire-reports/*.xml', allowEmptyResults: true
+            
+            // 2. HTML Report (Extent / Emailable Report) sathi
+            publishHTML(target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'test-output',
+                reportFiles: 'emailable-report.html',
+                reportName: 'HTML Test Report'
+            ])
         }
     }
 }
