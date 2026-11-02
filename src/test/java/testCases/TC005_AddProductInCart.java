@@ -7,10 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pageObjects.Baseclass;
 import pageObjects.HomePage;
 import pageObjects.ProductPageClass;
 
-public class AddProductInCart extends Baseclass {
+public class TC005_AddProductInCart extends Baseclass {
 @Test
 public void Addproduct_to_cart() {
 	HomePage hp=new HomePage(driver);

@@ -11,6 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.AccountCreatedPage;
+import pageObjects.Baseclass;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.SignUpPage;

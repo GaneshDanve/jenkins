@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pageObjects.Baseclass;
 import pageObjects.ContactUsPage;
 import pageObjects.HomePage;
 
@@ -25,7 +26,7 @@ import pageObjects.HomePage;
 		cp.enteremail("abcd@gmail.com");
 		cp.entersubject("regarding cancel order");
 		cp.entermessage("kindly help me");
-		cp.clickonUploadfile("C:\\Users\\admin\\Desktop");
+		cp.clickonUploadfile("C:\\Users\\admin\\OneDrive\\Desktop\\hosts.txt");
 		cp.clickonsubmitbtn();
 		Alert alt= driver.switchTo().alert();
 		alt.accept();

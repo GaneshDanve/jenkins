@@ -1,4 +1,4 @@
-package testCases;
+package pageObjects;
 
 import java.io.File;
 import java.io.IOException;
