@@ -57,7 +57,6 @@ public class Baseclass {
 			System.out.println("Wrong Browser name please check properties file");
 			break;
            }
-            driver.manage().window().maximize();
             logger.info("Url open..!");
 	        driver.get(baseurl);
 	        driver.manage().window().maximize();
