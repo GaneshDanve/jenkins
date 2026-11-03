@@ -35,7 +35,7 @@ import pageObjects.HomePage;
 	    Assert.assertEquals(true, succesmssag);
 	    cp.clickonhome();
 		String home_url=driver.getCurrentUrl();
-		String expURL="https://automationexercise.com/";
+		String expURL="https://automationexercise.com/contact_us#google_vignette";
 		Assert.assertEquals(home_url, expURL);
 		logger.info("Test no 6 passed");
 		

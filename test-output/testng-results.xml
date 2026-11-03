@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-02T17:22:39 IST" name="Suite" finished-at="2026-11-02T17:24:48 IST" duration-ms="128696">
+  <suite started-at="2026-11-03T13:01:37 IST" name="Failed suite [Suite]" finished-at="2026-11-03T13:02:04 IST" duration-ms="26882">
     <groups>
     </groups>
-    <test started-at="2026-11-02T17:22:39 IST" name="Test" finished-at="2026-11-02T17:24:48 IST" duration-ms="128696">
-      <class name="testCases.TC003_Login_with_invalid_crendentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@3bd82cf5]" started-at="2026-11-02T17:23:45 IST" name="setup" finished-at="2026-11-02T17:23:52 IST" duration-ms="6584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC003_Login_with_invalid_crendentials@3bd82cf5]" started-at="2026-11-02T17:23:52 IST" name="loginPagewithcorrectcredentials" finished-at="2026-11-02T17:24:15 IST" duration-ms="23309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPagewithcorrectcredentials -->
-      </class> <!-- testCases.TC003_Login_with_invalid_crendentials -->
-      <class name="testCases.TC002_Login_with_valid_crendentials">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@fa4c865]" started-at="2026-11-02T17:23:08 IST" name="setup" finished-at="2026-11-02T17:23:14 IST" duration-ms="5760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginPagewithcorrectcredentials()[pri:0, instance:testCases.TC002_Login_with_valid_crendentials@fa4c865]" started-at="2026-11-02T17:23:14 IST" name="loginPagewithcorrectcredentials" finished-at="2026-11-02T17:23:45 IST" duration-ms="31661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPagewithcorrectcredentials -->
-      </class> <!-- testCases.TC002_Login_with_valid_crendentials -->
+    <test started-at="2026-11-03T13:01:37 IST" name="Test(failed)" finished-at="2026-11-03T13:02:04 IST" duration-ms="26882">
       <class name="testCases.TC004_LogOutUser">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_LogOutUser@544fa968]" started-at="2026-11-02T17:24:15 IST" name="setup" finished-at="2026-11-02T17:24:21 IST" duration-ms="5955" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_LogOutUser@1ff4931d]" started-at="2026-11-03T13:01:38 IST" name="setup" finished-at="2026-11-03T13:01:53 IST" duration-ms="14285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogout()[pri:0, instance:testCases.TC004_LogOutUser@544fa968]" started-at="2026-11-02T17:24:21 IST" name="verifyLogout" finished-at="2026-11-02T17:24:34 IST" duration-ms="13174" status="PASS">
+        <test-method signature="verifyLogout()[pri:0, instance:testCases.TC004_LogOutUser@1ff4931d]" started-at="2026-11-03T13:01:53 IST" name="verifyLogout" finished-at="2026-11-03T13:02:04 IST" duration-ms="11584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogout -->
       </class> <!-- testCases.TC004_LogOutUser -->
-      <class name="testCases.TC006_ContactUsForm">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC006_ContactUsForm@247bddad]" started-at="2026-11-02T17:24:34 IST" name="setup" finished-at="2026-11-02T17:24:41 IST" duration-ms="6543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validateContactUsForm()[pri:0, instance:testCases.TC006_ContactUsForm@247bddad]" started-at="2026-11-02T17:24:41 IST" name="validateContactUsForm" finished-at="2026-11-02T17:24:48 IST" duration-ms="6862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateContactUsForm -->
-      </class> <!-- testCases.TC006_ContactUsForm -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@510f3d34]" started-at="2026-11-02T17:22:40 IST" name="setup" finished-at="2026-11-02T17:22:50 IST" duration-ms="10014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@510f3d34]" started-at="2026-11-02T17:22:50 IST" name="Verify_Account_Registration" finished-at="2026-11-02T17:23:08 IST" duration-ms="17948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Account_Registration -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>
